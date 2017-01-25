@@ -3,7 +3,7 @@ const app = express()
 const time = require('time')
 const port = 3000
 
-app.get('/', (request, response) => {  
+app.get('/time/', (request, response) => {  
   response.send(new time.Date())
 })
 
