@@ -1,10 +1,9 @@
 const express = require('express')  
 const app = express()  
-const time = require('time')
 const port = 3000
 
 app.get('/time/', (request, response) => {  
-  response.send(new time.Date())
+  response.send(new Date())
 })
 
 app.listen(port, (err) => {  
