@@ -1,0 +1,27 @@
+{
+  "name": "tiny-time-server",
+  "version": "0.0.1",
+  "description": "A tiny server, serving the time",
+  "author": "Valentin Krasontovitsch <v.krasontov@gmail.com>",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valentin-krasontovitsch/time.org"
+  },
+  "bugs": {
+    "url": "https://github.com/valentin-krasontovitsch/time.org"
+  },
+  "keywords": [
+    "tinyserver",
+    "time"
+  ],
+  "dependencies": {
+    "express": "^4.14.0",
+    "time": "^0.11.4"
+  },
+  "devDependencies": {},
+  "private": true,
+  "license": "GNU"
+}
