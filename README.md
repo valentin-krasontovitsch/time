@@ -1,4 +1,4 @@
-# time
+# tiny-time-server
 
 This is a simple node server, serving JSON through an API that tells the time.
 
